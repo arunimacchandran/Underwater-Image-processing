@@ -96,7 +96,7 @@ def mainFunction(img):
 
 	#Gamma Correction
 	from skimage import exposure
-	gamma_img = exposure.adjust_gamma(wb_img, 3)
+	gamma_img = exposure.adjust_gamma(wb_img, 1.3)
 	#plt.imshow(gamma_img)
 	#plt.show()
 
